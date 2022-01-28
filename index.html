@@ -5,87 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/free/mdb.min.css" />
-    <link rel="stylesheet" href="css/modules/lightbox.min.css" />
-
+    <!-- <link rel="stylesheet" href="css/free/mdb.min.css" />
+    <link rel="stylesheet" href="css/modules/lightbox.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
     <title>yoojo</title>
 </head>
 <body>
 <section class="menu">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid justify-content-between">
-          <!-- Left elements -->
-          <div class="d-flex">
-            <!-- Brand -->
-            <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
-              <img
-                src="images/yoojo-logo.svg"
-                height="40"
-                alt="logo-yoojo"
-                loading="lazy"
-                style="margin-top: 4px;"
-              />
-            </a>
-      
-            <!-- Search form -->
-            
-          </div>
-          <!-- Left elements -->
-      
-          <!-- Center elements -->
-          
-          <div class="navbar-nav flex-row d-none d-md-flex">
-            <button type="button" class="btn btn-primary btn-rounded"><i class="fas fa-plus-circle fa-md"></i> Demander un service </button>
-          </div>
-          <!-- Center elements -->
-      
-          <!-- Right elements -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
-         <div class="collapse navbar-collapse " id="navbarText" >
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#"> <img src="images/yoojo-logo.svg" alt="" class="w-25 h-25"></a>
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Devenir jobber</a>  
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Connexion</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Inscription</a>
-                    </li>
-                  </ul>
-    
-               
-              </ul>
-         </div>
-          <!-- Right elements -->
-        </div>
-      </nav>
+      <div class="justify-content-center">
+        <button type="button" class="btn btn-primary">Demande un service</button>
+      </div>
+
+
+
+    <div class="d-flex">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02 ">
+        <ul class="navbar-nav me-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Devenir jobber</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Connexion</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link " href="#" >Inscription</a>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+    </div>
+  </nav>
 </section>
 
 <section class="image">
     <div class="row">
         <div class="col-xl-7 col-lg-8 col-md-10 col-sm-11 col-12 ">
-            <div class="container">
+            <div class="container groupe">
                 <div class="nouveau">
-                    <a href="#" class="nav-link"><button type="button" class="btn btn-danger btn-rounded">Nouveau </button>Payez en ticket CESU </a>
+                    <a href="#" class="nav-link"><button type="button" class="btn btn-danger btn-rounded">Nouveau </button> Payez en ticket CESU </a>
                     
                 </div>
                 <div>
-                    <h1 class="mb-4 display-5">Trouvez le prestataire idéal pour tous les services du quotidien
+                    <h1 class="mb-4 display-5"> Trouvez le prestataire idéal pour tous les services du quotidien
                     </h1>
                 </div>
-                <div>
-                    <div class="inputWithIcon">
-                        <input type="text" placeholder="Your name">
-                        <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i>
-                      </div>
-                        
+                <div class = "container ">     
+                  <button type="button" class="btn btn-lg "><i class="fas fa-search  "></i></button>
+                      
                  </div> 
                 </div>
 
@@ -94,6 +73,128 @@
     </div>
 </section>
     
+<div class="container d-flex  slide1" style="padding: 30px 0;">
+  <div class="one d-flex" style="margin-right: 100px;">
+
+    <i class="fa fa-user-check"></i>
+    <p class="">Budget respecté</p>
+  </div>
+
+  <div class="two d-flex" style="margin-right: 100px;">
+    <i class="fa fa-check"></i>
+    <p class="">Prestations assurées </p>
+  </div>
+
+  <div class="three d-flex" style="margin-right: 100px;">
+    <i class="fa fa-handshake"></i>
+    <p class="">Prestations qualifies </p>
+  </div>
+
+  <div class="four d-flex" style="margin-right: 100px;">
+    <i class="fa fa-phone"></i>
+    <p class="">Service encadre</p>
+  </div>
+
+</div>
+<section class="besion">
+  <div class="container">
+    <h5>De quel service avez-vous besoin ?</h5>
+    <p>Pour chaque situation, trouvez le prestataire dont les compétences
+       répondent à vos attentes et à votre niveau d’exigence.</p>
+  </div>
+
+  <div class="container-fluid" style="background-color: antiquewhite;">
+    <div class="container">
+   <div class="un ">
+    <div class="row">
+      <div class="col col-md-4   col-12 image1">
+        <img  class="w-100 h-100" style="border-radius: 10px;" src="images 2/20-e8e98c9d1cf9069f52eeeb9826bcccc526915bed259858e7e44cbcfd04bc0c60.svg" alt="">
+        
+      </div>
+     
+      <div class="col col-md-4   col-12 image1">
+        <img class="w-100 h-100" style="border-radius: 10px;" src="images 2/21-28ccab52831cd1868c6744f77d7fe7c304d645f0a6d3237351bd0692a646fb96.svg" alt="">
+       
+      </div>
+     
+      <div class="col  col-md-4     col-12 image1">
+        <img class="w-100 h-100" style="border-radius: 10px;" src="images 2/22-6bc86dbb1390e1b1a506269134feece1e0ac5028143c9f65b81d52b887af1a87.svg" alt="">
+       
+      </div>
+      
+    </div>
+  </div>
+
+    <div class="deux">
+      <div class="row">
+        <div class="col col-12 col-md-4   image2">
+          <img class="w-100" style="border-radius: 10px;" src="images 2/23-2cef76ae43c8eca7e91cb445550a4a8931f7e7aea3a7e7c624fc7b155a989ddc.svg" alt="">
+        </div>
+       
+        <div class="col col-12 col-md-4   image2">
+          <img class="w-100" style="border-radius: 10px;" src="images 2/24-98f36dcebef3e79fdad340e805f36f32d0cc9369066a317e5ee5096f8f9fa79f.svg" alt="">
+        </div>
+        
+        <div class="col col-12 col-md-4    image2">
+          <img class="w-100" style="border-radius: 10px;" src="images 2/25-bbf612f1c76ab9f689d1a2acc2097c9b7044f394ef539605576d830d570d26d2.svg" alt="">
+        </div>
+        
+      </div>
+    </div>
+      <div class="trois">
+        <div class="row">
+          <div class="col col-12 col-md-4   image2">
+            <img class="w-100" style="border-radius: 10px;" src="Images 2/26-20060e9cd170d149293f337dd772800e836f8ab07d5bd2601e52c941e421d4a9.svg" alt="">
+          </div>
+         
+          <div class="col col-12 col-md-4    image2">
+            <img class="w-100" style="border-radius: 10px;" src="images 2/28-7d5972fafb408b81cf6b28d3bee60843e4b0838fd4df54193e857620a89fb004.svg" alt="">
+          </div>
+          
+          <div class="col col-12 col-md-4    image2">
+            <img class="w-100" style="border-radius: 10px;" src="images 2/29-018d670dbb24035a918f3a89ca4dbec5e9e0423897d633ccdf5e273af001ac4d.svg" alt="">
+          </div>
+          
+        </div>
+      </div> 
+      </div>
+    </div>
+   
+  
+    
+</section>
+
+<section class="slide">
+  <div class="container">
+    <h5>Découvrez nos services du moment</h5>
+  </div>
+  <div class="container slid ">
+
+    <img src="images 2/1005-d61fed6e4a0b48820b95fc97785234bff8ac3df9c564a12e588cdd52acb93d68.svg" alt="">
+
+    <img src="images 2/3014-cbe8efa8b8fc0615a0738eb8c9f6e3c62040140ea9ffb5019cda0b8193c533e7.svg" alt="">
+
+    <img src="images 2/4001-f145744534c445655cdfaed5133716783f0adace552d3579369700fc17150117.svg" alt="">
+
+    <img src="images 2/9001-696276598f69dd2656a82e826d04559981ec58e2893c1d703ceb33618aa1be9c.svg" alt="">
+
+    <img src="images 2/1003-78c71cc44b0bcc66d728997d90b8804d565a3eb571acf18731b3726e2d4b15ec.svg" alt="">
+
+    <img src="images 2/3003-e63e68149ab5afc1f69c7a89853fdd9576c677b618e4a53adee8ea4c4a8516df.svg" alt="">
+
+    <img src="images 2/1007-9cd982cda451acb474ea9f3b1d79fcda9731c1f644eb7f375f325c2221c41145.svg" alt="">
+
+    <img src="images 2/1011-5fda49897ae9a882e197b10f2d1cc15934f4add64142d9eb2bffd9f0edfad97a.svg" alt="">
+
+    <img src="images 2/1006-918b36336b1dcfca1ad4fac54adffc0d99392334ed5091cda90729b4e22f4761.svg" alt="">
+
+
+    <img src="images 2/5006-47debbe519cf75d77f24f50878fa23693946966f7afb6cf0accae31d535b1df9.svg" alt="">
+  </div>
+  <div class="container" style="padding-top: 20px;">
+    <a href="#" style="margin-left: 50px;"> Voir tous les services <i class="fas fa-chevron-right"></i></a>
+  </div>
+</section>
 
 
 
@@ -101,11 +202,13 @@
 
 
 
-
-
-
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/modules/lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0eca8d30fc.js" crossorigin="anonymous"></script>
     <script src="./yoopo.js"></script>
